@@ -1,2 +1,3 @@
 # NimBasics
-My version of the completed exercises for the "Basis Nim" course, by narimiran
+My take at the exercises provided by Narimiran in his "Nim Basics" course.
+
