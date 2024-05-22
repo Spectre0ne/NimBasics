@@ -55,8 +55,10 @@ let
 
 if aSalaryMonthly > bSalaryMonthly:
     echo "A earns more then B"
-if bSalaryMonthly > aSalaryMonthly:
+elif bSalaryMonthly > aSalaryMonthly:
     echo " B earns more then a"
 else:
-    if bSalaryMonthly == aSalaryMonthly:
-        echo "Echo A earns the same amount as B"
+   echo "Echo A earns the same amount as B"
+
+
+
