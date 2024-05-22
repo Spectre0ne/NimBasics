@@ -24,7 +24,7 @@ for ch in name:
 with buz, if divisible by 15 replace with fizzbuz]#
 
 var i = 1
-while i < 100:
+while i < 30:
     if i mod 15 == 0: 
         echo "fizzbuzz"
     if i mod 3 == 0:
@@ -36,3 +36,17 @@ while i < 100:
     else:
         echo i
     i = i + 1
+
+#[ In the previous exercises you have converted inches to centimeters, and
+vice versa. Create a conversion table with multiple values. For example, the
+table might look like this:]#
+
+var c : float = 1
+
+echo "in | cm"
+echo "--------------"
+while c < 10:
+    echo c, " | ", c*2.54
+    c = c+1 
+
+
