@@ -20,7 +20,7 @@ let
 for ch in name:
     if ch in vowels:
         echo ch
-#[Count numbers from 1 upward, if divisible by 3 replace with fizz, if divisible by 5, replace
+#[Exercise 3: Count numbers from 1 upward, if divisible by 3 replace with fizz, if divisible by 5, replace
 with buz, if divisible by 15 replace with fizzbuz]#
 
 var i = 1
@@ -37,7 +37,7 @@ while i < 30:
         echo i
     i = i + 1
 
-#[ In the previous exercises you have converted inches to centimeters, and
+#[ Exercise 4: In the previous exercises you have converted inches to centimeters, and
 vice versa. Create a conversion table with multiple values. For example, the
 table might look like this:]#
 
